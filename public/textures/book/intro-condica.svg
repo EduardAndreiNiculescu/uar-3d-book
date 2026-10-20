@@ -1,0 +1,51 @@
+<svg viewBox="0 0 600 800" width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundal & Chenare de planșă -->
+  <rect x="0" y="0" width="600" height="800" fill="#F6F1E7"/>
+  <rect x="22" y="22" width="556" height="756" fill="none" stroke="#B08D57" stroke-width="1.8" opacity="0.65"/>
+  <rect x="27" y="27" width="546" height="746" fill="none" stroke="#3B3126" stroke-width="0.6" opacity="0.35"/>
+  
+  <!-- Colțari tehnici -->
+  <g stroke="#B08D57" stroke-width="1.2" fill="none">
+    <path d="M 22 40 L 40 40 L 40 22" />
+    <path d="M 578 40 L 560 40 L 560 22" />
+    <path d="M 22 760 L 40 760 L 40 778" />
+    <path d="M 578 760 L 560 760 L 560 778" />
+  </g>
+
+  <!-- Emblema UAR Craiova / Roză a vânturilor stilizată -->
+  <g transform="translate(300, 160)">
+    <circle r="46" fill="none" stroke="#7D5F36" stroke-width="1.6"/>
+    <circle r="40" fill="none" stroke="#B08D57" stroke-width="0.8" stroke-dasharray="3,3"/>
+    <!-- Stea a vânturilor -->
+    <polygon points="0,-36 6,-10 32,-10 12,5 18,30 0,15 -18,30 -12,5 -32,-10 -6,-10" fill="#E8DEC8" stroke="#3B3126" stroke-width="1.2"/>
+    <circle r="4" fill="#B08D57"/>
+  </g>
+
+  <text x="300" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="12" letter-spacing="4" fill="#7D5F36">ARGUMENT EDITORIAL</text>
+  <line x1="220" y1="262" x2="380" y2="262" stroke="#B08D57" stroke-width="1"/>
+
+  <text x="300" y="305" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="2.5" fill="#3B3126">MEMORIA ORAȘULUI</text>
+  <text x="300" y="335" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="16" fill="#5C5142">Craiova: Vocația Arhitecturii</text>
+
+  <!-- Text Manifest & Prefață -->
+  <g font-family="Georgia, serif" font-size="13" fill="#42392F" text-anchor="middle" opacity="0.9">
+    <text x="300" y="385">„Condica de Schițe adună reperele fondatoare ale identității</text>
+    <text x="300" y="408">construite din Craiova, de la viziunea neoromânească</text>
+    <text x="300" y="431">a lui Ion Mincu și Petre Antonescu, până la rafinamentul</text>
+    <text x="300" y="454">eclectic și accentele Art Nouveau ce definesc Cetatea Băniei.”</text>
+
+    <text x="300" y="500">Planșele de față constituie un releveu simbolic al celor cinci</text>
+    <text x="300" y="523">edificii monumentale ce păstrează vie memoria urbană:</text>
+    
+    <text x="300" y="558" font-weight="bold" fill="#7D5F36">• Palatul Administrativ (Prefectura &amp; CJ Dolj)</text>
+    <text x="300" y="578" font-weight="bold" fill="#7D5F36">• Palatul Băncii Comerțului (Primăria Craiova)</text>
+    <text x="300" y="598" font-weight="bold" fill="#7D5F36">• Casa Ionel Pleșia (Biblioteca Franceză Omnia)</text>
+    <text x="300" y="618" font-weight="bold" fill="#7D5F36">• Casa Magistratului Dumitru Dianu</text>
+    <text x="300" y="638" font-weight="bold" fill="#7D5F36">• Secția de Istorie a Muzeului Olteniei</text>
+  </g>
+
+  <!-- Separator & Semnătură -->
+  <line x1="160" y1="680" x2="440" y2="680" stroke="#B08D57" stroke-width="0.8" opacity="0.6"/>
+  <text x="300" y="715" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" letter-spacing="1.5" fill="#8C7A6B">UNIUNEA ARHITECȚILOR DIN ROMÂNIA</text>
+  <text x="300" y="732" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="12" fill="#7D5F36">Filiala Euroregională Sud-Vest Oltenia</text>
+</svg>

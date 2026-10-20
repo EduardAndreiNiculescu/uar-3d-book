@@ -1,0 +1,15 @@
+/* Doar subseturile latin + latin-ext (acoperă diacriticele românești) — evităm
+   să umflăm CSS-ul cu @font-face pentru chirilică/vietnameză/matematică/simboluri
+   pe care pagina nu le folosește niciodată (Lighthouse a semnalat CSS-ul ca render-blocking). */
+@import '@fontsource-variable/fraunces/standard.css';
+@import '@fontsource-variable/fraunces/opsz-italic.css';
+
+@import '@fontsource/lora/latin-400.css';
+@import '@fontsource/lora/latin-ext-400.css';
+@import '@fontsource/lora/latin-500.css';
+@import '@fontsource/lora/latin-ext-500.css';
+@import '@fontsource/lora/latin-400-italic.css';
+@import '@fontsource/lora/latin-ext-400-italic.css';
+
+@import '@fontsource/petit-formal-script/latin-400.css';
+@import '@fontsource/petit-formal-script/latin-ext-400.css';

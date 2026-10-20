@@ -1,0 +1,113 @@
+.sectionHeading {
+  max-width: 42rem;
+  margin-bottom: var(--space-4);
+}
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: var(--fs-small);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-wine);
+  margin: 0 0 var(--space-1);
+}
+
+.sectionHeading h2 {
+  font-size: var(--fs-display-lg);
+}
+
+.lede {
+  color: var(--color-ink-soft);
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.emptyState {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-5) var(--space-4);
+  text-align: center;
+  max-width: 34rem;
+  margin: var(--space-4) auto;
+  background: var(--color-paper-deep);
+}
+
+.emptyMark {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: var(--color-brass);
+  margin-bottom: var(--space-2);
+}
+
+.emptyState h3 {
+  font-size: var(--fs-display-md);
+  margin-bottom: var(--space-1);
+}
+
+.emptyState p {
+  color: var(--color-ink-soft);
+  margin: 0;
+}
+
+.scroller {
+  display: flex;
+  gap: var(--space-3);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0.3rem 0.3rem var(--space-2);
+  margin: 0 -0.3rem;
+  list-style: none;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-brass-soft) transparent;
+}
+
+.scroller::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  background: var(--color-brass-soft);
+  border-radius: 999px;
+}
+
+.newsCard {
+  scroll-snap-align: start;
+  flex: 0 0 clamp(15rem, 40vw, 19rem);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  background: var(--color-paper-deep);
+  text-align: left;
+}
+
+.newsCard h3 {
+  font-size: 1.05rem;
+  margin: 0.2rem 0 0.4rem;
+}
+
+.newsCard p {
+  color: var(--color-ink-soft);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.newsCardDate {
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-wine);
+  margin: 0;
+}
+
+.newsCardEmpty {
+  flex-basis: 100%;
+  text-align: center;
+  border-style: dashed;
+}
+
+.newsCardMark {
+  display: inline-block;
+  color: var(--color-brass);
+  font-size: 1.2rem;
+  margin-bottom: var(--space-1);
+}

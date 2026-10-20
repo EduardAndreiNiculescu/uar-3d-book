@@ -1,0 +1,66 @@
+import type { HistoryEra } from './types';
+
+export const historyEras: HistoryEra[] = [
+  {
+    id: 'conferinta-1-2007',
+    title: 'Conferința de Constituire',
+    year: '2007',
+    date: '2007-05-09',
+    conferenceLabel: 'Conferința I',
+    locationDetail: 'Casa Arhitectului, str. M. Kogălniceanu nr. 13, Craiova',
+    status: 'published',
+    description:
+      'Filiala euroregională Sud-Vest Oltenia a Uniunii Arhitecților din România s-a înființat pe 9 mai 2007, de Ziua Europei, în prezența președintelui U.A.R., prof. dr. arh. Peter Derer. UAR are în statut două obiective principale: proiectele culturale (monumente și patrimoniu) și cele sociale. Descentralizarea la nivel de regiune de dezvoltare a fost punctul de plecare al filialei.',
+    leadership: [
+      { role: 'Președinte', name: 'arh. Pavel Popescu' },
+      { role: 'Senat, preș. fil. jud. Dolj', name: 'arh. Mariana Trif' },
+      { role: 'Senat, preș. fil. jud. Olt', name: 'arh. Severică Mitrache' },
+      { role: 'Senat, preș. fil. jud. Mehedinți', name: 'arh. Liviu Buzec' },
+      { role: 'Senat, preș. fil. jud. Gorj', name: 'arh. Iosif Dragotă' },
+      { role: 'Membru senat', name: 'arh. Viorel Voia' },
+      { role: 'Membru senat', name: 'arh. Daniela Budu' },
+      { role: 'Membru senat', name: 'arh. Radu Brândușoiu' },
+      { role: 'Vicepreședinte, Colegiul Director', name: 'arh. Viorel Voia' },
+      { role: 'Secretar, Colegiul Director', name: 'arh. Radu Brândușoiu' },
+      { role: 'Trezorier, Colegiul Director', name: 'arh. Daniela Budu' },
+    ],
+  },
+  {
+    id: 'conferinta-2-2012',
+    title: 'A Doua Conferință Euroregională',
+    year: '2012',
+    date: '2012-04-12',
+    conferenceLabel: 'Conferința a II-a',
+    locationDetail: 'Casa Universitarilor (clădire monument istoric „Casa Romanescu"), Craiova',
+    status: 'published',
+    description:
+      'A doua conferință euroregională a filialei Sud-Vest Oltenia a avut loc la Casa Romanescu, monument istoric al Craiovei, cu o structură de conducere reînnoită și extinsă și către filiala județeană Argeș.',
+    leadership: [
+      { role: 'Președinte', name: 'arh. Pavel Popescu' },
+      { role: 'Senat, preș. fil. jud. Dolj', name: 'arh. Mariana Trif' },
+      { role: 'Senat, preș. fil. jud. Mehedinți', name: 'arh. Liviu Buzec' },
+      { role: 'Senat, preș. fil. jud. Gorj', name: 'c.arh. Ion Teodorescu' },
+      { role: 'Senat, preș. fil. jud. Argeș', name: 'arh. Viorel Adrian Mahu' },
+      { role: 'Senat, preș. fil. jud. Olt', name: 'arh. Gabriela Anton' },
+      { role: 'Membru senat', name: 'arh. Virginia Stătescu' },
+      { role: 'Vicepreședinte, Colegiul Director', name: 'arh. Mariana Trif' },
+      { role: 'Trezorier, Colegiul Director', name: 'arh. Virginia Stătescu' },
+      { role: 'Președinte, Comisia de Cenzori', name: 'arh. Radu Mitrică' },
+      { role: 'Membru, Comisia de Cenzori', name: 'arh. Elena Morari' },
+      { role: 'Membru, Comisia de Cenzori', name: 'c.arh. Sevastian Albu' },
+    ],
+  },
+  {
+    id: 'conferinta-3-2016',
+    title: 'A Treia Conferință Euroregională',
+    year: '2016',
+    date: '2016-04-12',
+    conferenceLabel: 'Conferința a III-a',
+    locationDetail: 'De completat',
+    status: 'coming-soon',
+    isPlaceholder: true,
+    description:
+      'Conținutul acestei conferințe nu a putut fi recuperat integral de pe site-ul anterior. Va fi completat cu structura de conducere curentă, la primirea materialelor de la filială.',
+    leadership: [],
+  },
+];

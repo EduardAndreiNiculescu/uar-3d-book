@@ -1,0 +1,50 @@
+:root {
+  /* Paletă */
+  --color-paper: #f6f1e7;
+  --color-paper-deep: #efe7d8;
+  --color-ink: #3b3126;
+  --color-ink-soft: #5c5142;
+  --color-wine: #7a2e2e;
+  --color-wine-soft: #9c4a4a;
+  --color-brass: #b08d57;
+  --color-brass-text: #7d5f36;
+  --color-brass-soft: #cbb383;
+  --color-border: rgba(59, 49, 38, 0.16);
+
+  /* Tipografie */
+  --font-display: 'Fraunces Variable', 'Fraunces', Georgia, serif;
+  --font-body: 'Lora', Georgia, serif;
+  --font-script: 'Petit Formal Script', 'Segoe Script', cursive;
+
+  --fs-display-xl: clamp(2.6rem, 5vw + 1rem, 4.6rem);
+  --fs-display-lg: clamp(2rem, 3vw + 1rem, 3rem);
+  --fs-display-md: clamp(1.5rem, 1.6vw + 1rem, 2rem);
+  --fs-body: 1.0625rem;
+  --fs-small: 0.9rem;
+  --fs-caption: 1.5rem;
+
+  --lh-body: 1.7;
+
+  /* Spațiere */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+  --space-6: 6rem;
+
+  /* Layout */
+  --content-max-width: 72rem;
+  --radius-md: 4px;
+
+  /* Mișcare */
+  --ease-page: cubic-bezier(0.45, 0, 0.2, 1);
+  --duration-page: 480ms;
+  --duration-fade: 150ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-page: 1ms;
+  }
+}

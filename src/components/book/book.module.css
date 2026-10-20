@@ -1,0 +1,63 @@
+.wrap {
+  max-width: 74rem;
+  margin: 0 auto;
+}
+
+.canvasBox {
+  position: relative;
+  width: 100%;
+  height: 94vh;
+  min-height: 38rem;
+  max-height: 76rem;
+  overflow: hidden;
+}
+
+.canvasBox canvas {
+  cursor: grab;
+}
+
+.canvasBox canvas:active {
+  cursor: grabbing;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: var(--space-3);
+}
+
+.navButton {
+  border: 1px solid var(--color-border);
+  background: var(--color-paper-deep);
+  color: var(--color-ink-soft);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background var(--duration-fade) ease, color var(--duration-fade) ease, border-color var(--duration-fade) ease;
+}
+
+.navButton:hover {
+  border-color: var(--color-brass);
+  color: var(--color-ink);
+}
+
+.navButtonActive {
+  background: var(--color-wine);
+  border-color: var(--color-wine);
+  color: var(--color-paper);
+}
+
+@media (max-width: 640px) {
+  .canvasBox {
+    min-height: 20rem;
+  }
+
+  .navButton {
+    font-size: 0.78rem;
+    padding: 0.45rem 0.85rem;
+  }
+}

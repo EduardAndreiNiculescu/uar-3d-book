@@ -1,0 +1,19 @@
+# UAR Oltenia
+
+> Uniunea Arhitecților din România — filiala euroregională Sud-Vest Oltenia. Instituție profesională de
+> arhitectură cu sediul în Craiova, dedicată patrimoniului construit al Olteniei și reprezentării arhitecților
+> din regiune.
+
+Filiala a fost constituită pe 9 mai 2007 la Casa Arhitectului din Craiova. Site-ul prezintă istoricul filialei,
+proiectele culturale (inclusiv campania de salvare a culelor oltenești), expozițiile organizate și datele de
+contact.
+
+## Pagini
+
+- [Acasă](/): prezentare generală și piesa centrală vizuală, o condică ilustrată cu clădiri reprezentative din Oltenia
+- [Despre](/despre): istoricul înființării filialei și conferințele euroregionale
+- [Noutăți](/noutati): anunțuri curente ale filialei
+- [Expoziții](/expozitii): proiectele culturale ale filialei
+- [Expoziții/S.O.S. Culele din România](/expozitii/sos-culele): manifest pentru salvarea culelor fortificate oltenești
+- [Expoziții/Frank Lloyd Wright](/expozitii/frank-lloyd-wright): expoziția din 2013 dedicată arhitectului american
+- [Contact](/contact): adresă, telefoane și email
